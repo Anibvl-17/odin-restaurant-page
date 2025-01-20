@@ -1,0 +1,27 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "This is a project to practice DOM manipulation and the use of npm packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anibvl-17/odin-restaurant-page.git"
+  },
+  "author": "Claudio Candia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anibvl-17/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Anibvl-17/odin-restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3"
+  }
+}
