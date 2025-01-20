@@ -1,2 +1,3 @@
 # odin-restaurant-page
-This is part of the
+In this project, I'll continue practicing DOM manipulation by dynamically rendering a restaurant homepage.
+Also, I'll practice with npm packages.
