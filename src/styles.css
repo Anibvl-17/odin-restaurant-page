@@ -92,11 +92,19 @@ footer a:hover {
   text-decoration: underline;
 }
 
+#content {
+  margin-top: 24px;
+}
+
 .home-section {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   margin-inline: 15%;
   border-radius: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
+
 
 .home-title {
   font-size: 4rem;
@@ -105,4 +113,14 @@ footer a:hover {
   letter-spacing: 2px;
   text-align: center;
   margin-top: 3%
+}
+
+.home-subtitle {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.home-description {
+  width: 60ch;
 }
