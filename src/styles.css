@@ -9,4 +9,61 @@ html {
 body {
   margin: 0;
   height: 100%;
+  color: #d6d9d0;
+}
+
+h1 {
+  margin: 0;
+}
+
+#content {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #222834;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 15%;
+  border-bottom: 1px solid #f5f8f1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+nav button {
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 32px;
+  transition: ease 100ms;
+  text-align: center;
+}
+
+nav button:hover {
+  background-color: rgba(245, 248, 241, 0.1);
+}
+
+nav button.active {
+  background-color: #f5f8f1;
+  color: #27313a;
+}
+
+.logo {
+  width: 7rem;
 }
