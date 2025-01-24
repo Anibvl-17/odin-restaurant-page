@@ -29,7 +29,7 @@ export default function HomeDiv() {
 
   const description3 = document.createElement('p');
   description3.innerHTML =
-    '<strong>The Rustic Place</strong>, a place where every meal feels like home, and every visit'
+    '<strong>The Rustic Table</strong>, a place where every meal feels like home, and every visit'
     'feels like a celebration.';
   
   descriptionDiv.append(description1, description2, description3);
