@@ -1,3 +1,5 @@
+import './home.css';
+
 export default function HomeDiv() {
   const container = document.createElement('div');
   container.className = 'home-section';

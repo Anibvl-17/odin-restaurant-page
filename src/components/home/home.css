@@ -1,0 +1,53 @@
+.home-section {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-inline: 15%;
+  padding-block: 3%;
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.home-subtitle {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.home-description {
+  width: 50ch;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.call-to-action {
+  color: var(--background-color);
+  background: var(--color-cream);
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 12px 32px;
+  transition: ease 100ms;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  transform: scale(1.05);
+}
+
+.call-to-action:active {
+  filter: brightness(0.8);
+}
