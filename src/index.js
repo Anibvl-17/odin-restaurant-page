@@ -1,7 +1,7 @@
 import './styles.css';
-import HomeDiv from './components/home.js';
-import MenuDiv from './components/menu.js';
-import AboutDiv from './components/about.js';
+import HomeDiv from './components/home/home.js';
+import MenuDiv from './components/menu/menu.js';
+import AboutDiv from './components/about/about.js';
 
 const navButtons = document.querySelectorAll('.nav-btn');
 navButtons.forEach((btn) => {
