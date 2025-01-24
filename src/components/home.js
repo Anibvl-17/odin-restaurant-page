@@ -15,16 +15,16 @@ export default function HomeDiv() {
 
   const description1 = document.createElement('p');
   description1.innerHTML = 
-    'Nestled in the heart of culinary artistry, <strong>The Rustic Table</strong> offers a dining' +
-    'experience that blends rustic charm with refined elegance. Inspired by the simplicity of' +
-    'nature and the warmth of shared moments, our menu celebrates the finest seasonal ingredients,' +
+    'Nestled in the heart of culinary artistry, <strong>The Rustic Table</strong> offers a dining ' +
+    'experience that blends rustic charm with refined elegance. Inspired by the simplicity of ' +
+    'nature and the warmth of shared moments, our menu celebrates the finest seasonal ingredients, ' +
     'meticulously crafted into dishes that tell a story.';
 
   const description2 = document.createElement('p');
   description2.textContent =
-    'From the first bite to the last, our cuisine embodies the essence of comfort and' +
-    'sophistication, served in an ambiance designed to soothe the soul. Whether you\'re savoring' +
-    'the delicate sweetness of poached pears or enjoying the crunch of artisanal almonds, each' +
+    'From the first bite to the last, our cuisine embodies the essence of comfort and ' +
+    'sophistication, served in an ambiance designed to soothe the soul. Whether you\'re savoring ' +
+    'the delicate sweetness of poached pears or enjoying the crunch of artisanal almonds, each ' +
     'plate is a tribute to the beauty of unpretentious flavors elevated to perfection.';
 
   const description3 = document.createElement('p');
