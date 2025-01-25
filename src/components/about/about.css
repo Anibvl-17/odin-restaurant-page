@@ -1,0 +1,18 @@
+.about-section {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-block: 3%;
+  margin-inline: 15%;
+  border-radius: 8px;
+}
+
+.about-section p {
+  width: 75ch;
+}
+
+.about-section a {
+  color: burlywood;
+}
