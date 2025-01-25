@@ -82,14 +82,14 @@ footer {
   font-weight: light;
 }
 
-footer a {
+a {
   color: inherit;
   font-weight: 500;
   font-style: italic;
   text-decoration: none;
 }
 
-footer a:hover {
+a:hover {
   text-decoration: underline;
 }
 
