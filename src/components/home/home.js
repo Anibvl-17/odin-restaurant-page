@@ -38,7 +38,7 @@ export default function HomeDiv() {
 
   const callToAction = document.createElement('button');
   callToAction.className = 'call-to-action';
-  callToAction.textContent = 'Book a Table';
+  callToAction.textContent = 'Check the Menu';
 
   container.append(title, subtitle, descriptionDiv, callToAction)
 
