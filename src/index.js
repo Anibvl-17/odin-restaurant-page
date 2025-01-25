@@ -29,3 +29,6 @@ function updateContent(component) {
   contentDiv.textContent = '';
   contentDiv.appendChild(component);
 }
+
+// Initial page content
+updateContent(HomeDiv());
